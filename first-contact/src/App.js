@@ -13,6 +13,10 @@ class App extends Component {
     }
   }
 
+  toggle = () => {
+    
+  }
+
   render() {
     return (
       <div className="App">
