@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button type="button">Mostrar</button>
+        <button type="button" onClick={this.toggle}>Mostrar</button>
         <header className="App-header">
           {this.state.showImage && (
             <img src={logo} className="App-logo" alt="logo" />
