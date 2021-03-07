@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   toggle = () => {
-    
+    this.setState()
   }
 
   render() {
