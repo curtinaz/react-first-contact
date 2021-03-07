@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 
 class App extends Component {
 
-  constructor() {
-    
+  constructor(props) {
+
   }
 
   render() {
