@@ -24,7 +24,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <button type="button" onClick={this.toggle}>
-        {this.state ? 'Esconder' : 'Mostrar'}
+        {this.state.showImage ? 'Esconder' : 'Mostrar'}
         </button>
           {this.state.showImage && (
             <img src={logo} className="App-logo" alt="logo" />
