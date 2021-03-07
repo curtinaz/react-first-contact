@@ -19,10 +19,9 @@ class App extends Component {
         <button type="button">Mostrar</button>
         <header className="App-header">
           {this.state.showImage && (
-
-        
+            <img src={logo} className="App-logo" alt="logo" />
           )}
-          <img src={logo} className="App-logo" alt="logo" />
+
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
