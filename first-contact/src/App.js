@@ -14,7 +14,9 @@ class App extends Component {
   }
 
   toggle = () => {
-    this.setState()
+    this.setState({
+      showImage: true,
+    })
   }
 
   render() {
