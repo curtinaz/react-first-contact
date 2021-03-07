@@ -23,6 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+        <button type="button" onClick={this.toggle}>Mostrar</button>
           {this.state.showImage && (
             <img src={logo} className="App-logo" alt="logo" />
           )}
