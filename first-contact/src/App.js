@@ -15,7 +15,7 @@ class App extends Component {
 
   toggle = () => {
     this.setState({
-      showImage: true,
+      showImage: !this.state.showImage,
     })
   }
 
